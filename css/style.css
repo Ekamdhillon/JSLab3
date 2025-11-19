@@ -1,0 +1,44 @@
+/* General body styles */
+body {
+font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+line-height: 1.6;
+background-color: #ffffff; /* white background using hex */
+color: #222222; /* dark text using hex */
+}
+
+
+/* Spacing to account for fixed navbar */
+header, section {
+padding-top: 4rem;
+}
+
+
+/* Hero adjustments */
+#hero { padding-top: 6rem; padding-bottom: 4rem; }
+
+
+/* Buttons */
+.btn-primary {
+background-color: #0d6efd; /* hex for bootstrap primary-like color */
+border-color: #0d6efd;
+}
+
+
+/* Card hover subtle lift */
+.card:hover { transform: translateY(-6px); transition: transform 0.25s ease; }
+
+
+/* Footer */
+footer { background-color: #0b1220; color: #e9eef8; }
+
+
+/* Accessibility: focus outlines for keyboard users */
+a:focus, button:focus, input:focus, textarea:focus { outline: 3px solid rgba(13,110,253,0.15); outline-offset: 2px; }
+
+
+/* Responsive images fallback */
+img { max-width: 100%; height: auto; }
+
+
+/* Small utility tweaks */
+.navbar-brand { color: #0b1220;
